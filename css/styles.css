@@ -1,0 +1,196 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/*
+Navbar Brand
+*/
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 200;
+  color: white;
+}
+/*
+
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu',
+}
+*/
+
+.rowmain{
+  padding-top: 8%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: 'Montserrat'; 
+  font-weight: 900; 
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+.iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* Buttons Download */
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+
+@media (max-width: 1028px){
+  .title{
+    text-align: center;
+  }
+
+  .rowmain{
+    text-align: center;
+  }
+
+  .iphone{
+    transform: rotate(0deg);
+    text-align: center;
+    position: static;
+  }
+}
+
+/*Features*/
+#features{
+  padding: 5% 0 10%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+}
+
+h3{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.fafeatures{
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 4%;
+}
+
+.fafeatures:hover{
+  color: #ff4c68;
+}
+
+/* Testimonial Section*/
+
+#testimonials{
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  line-height: 2;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Plans */
+
+#pricing {
+  padding: 0 5% 10px 5%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-heading{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.pricing-text{
+  text-align: center;
+  font-weight: 900;
+}
+
+/*Download Section*/
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-color: white;
+}
+
+#footer{
+  background-color: #fff;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.fafooter{
+    font-size: 2rem;
+    padding: 0 5px 0 5px;
+}
+
+.footertitle{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  color: #fff;
+}
